@@ -1,0 +1,174 @@
+
+.backToTop{
+  /* margin-bottom: 40px; */
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  background-color: #37475A;
+  padding-bottom: 25px;
+}
+.footer-items{
+  /* margin: 30px auto 15px; */
+  color: #DDD;
+  background-color: #232f3e;
+}
+.footer .footer-flex{
+  display:flex;
+  justify-content: space-between;
+}
+.footer-items-items{
+  display: flex;
+  justify-content: space-between;
+}
+.css-1633um2-MuiPaper-root  {background-color: transparent!important}
+.footer-item span:hover{cursor: pointer;}
+.footer-item h5{
+  font-weight: 700;
+  color: #FFF;
+  font-size: 16px;
+  margin: 6px 0 14px 0;
+ 
+}
+
+.footer-item span{
+  color: #ddd;
+  margin: 0 0 10px;
+  cursor: pointer;
+  display: block;
+}
+.lang {
+  height: 23px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin: 27px;
+  padding: 22px 0px;
+}
+.lang-lang{
+  color: #DDD;
+  background-color: #232f3e;
+}
+.lang-items{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+ 
+}
+/* .lang-logo{
+  background-position: -10px -90px;
+  width: 76px;
+  height: 23px;
+  margin: 0 auto;
+  background-image: url(https://m.media-amazon.com/images/G/42/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB600087280_.png);
+  background-position: 0 1000px;
+  background-repeat: repeat-x;
+} */
+ .lang-items{padding-bottom: 20px;}
+.lang-logo img{
+  width: 76px;
+  height: 35px;
+  margin-right: 12px;
+
+}
+.lang-items select{
+  display: inline-block !important;
+  border: 1px solid #848688;
+  border-radius: 3px;
+  font-size: 13px;
+  margin-right: 4px;
+  width: 100px;
+  height: 36px;
+  background-color: transparent;
+  color: #fff;
+  margin-right: 12px;
+}
+.footer .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+  border-color: #fff!important;
+  width: 100px;
+}
+.lang-items button{
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+}
+/* footer-two-item */
+.footer-two{
+  display: flex;
+  justify-content: space-between;
+}
+/* copyright-items */
+.copyright{
+  background-color: #131A22;
+  padding: 30px 0;
+  font-size: 12px;
+}
+.copyright-items{
+  display: flex;
+  color: #fff;
+}
+
+.copyright-items span{
+  color: #DDD;
+  cursor: pointer;
+  display: block;
+font-size: 10px;
+color: #999;
+}
+.copyright-item{
+  margin-bottom: 20px;
+}
+.copyright-item:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.copyright-item h6{
+  color: #fff;
+  font-size: 12px;
+}
+.copyright-lists{
+  color: #ddd;
+  width: 29%;
+  text-align: center;
+  margin: auto;
+}
+.copyright-lists ul{
+  display: flex;
+}
+.copyright-lists li{
+  margin-right: 16px;
+}
+.copyright-lists li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.copyright-lists li{
+  color: #DDD!important;
+}
+.copyright-lists p{margin-top: 15px;}
+.audib{color: #fff}
+/* media */
+@media(max-width:900px){
+  .footer-items .css-mhc70k-MuiGrid-root > .MuiGrid-item {
+    margin-bottom: 3px;
+}
+.copyright .MuiPaper-root {margin-bottom: 2px;}
+
+}
+@media (max-width:500px){
+  .lang-items{flex-direction: column;}
+  .lang-logo{margin-bottom: 10px;}
+  .lang-items select{margin-bottom: 10px;}
+  .copyright ul{flex-direction: column;}
+  .copyright ul li{margin-bottom: 7px;}
+  .copyright-lists ul{
+    flex-direction: column;
+  }
+  .mainslider{margin-top: 0px;}
+
+}

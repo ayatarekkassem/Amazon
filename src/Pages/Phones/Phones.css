@@ -1,0 +1,316 @@
+.phones-items{
+    display: flex;
+    margin-top: 20px;
+}
+.phonesSidebar{
+    padding-right: 6px;
+    /* border-right: 2px solid #ddd; */
+    width: 17%;
+    margin-right: 0 ;
+}
+.phonesSidebar h6{
+    color: #0F1111;
+    font-size: 14px ;
+    line-height: 20px ;
+    font-weight: 700 ;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+.phonesSidebar ul{
+    list-style: none;
+    margin-left: -30px;
+}
+.phonesSidebar li{
+    font-size: 14px;
+    line-height: 20px ;
+    -webkit-transition: all 0.2s ease-in;
+    -webkit-moz: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    list-style-type: none;
+}
+.phonesSidebar li:hover{
+    cursor: pointer;
+    color: #c45500;
+}
+.phonesSidebar input{
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+/* Phone item */
+.phones-item{
+    width: 80%;
+}
+.enjoy{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    background-image: url(https://m.media-amazon.com/images/G/42/em/pd2023/XCM_CUTTLE_1559944_3028589_120x120_2X_en_EG.gif);
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.enjoy h4{
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 4px;
+}
+.enjoy h6{
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+.enjoy button{
+    padding-left: 12px;
+    padding-right: 12px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+    background-color: #FFD814!important;
+    border-color: #FCD200;
+    background: #FFF;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+ }
+/*.brand-name{
+    max-width: 100%!important;
+    margin: 5px auto;
+}
+.broand-img-img{
+    display: flex;
+}
+.brand-item{
+    display: flex;
+}
+.brands-img{
+    display: flex;
+}
+.brands img{
+    max-width: 50%;
+} */
+
+/* brands */
+.brands-imgs-flex{
+    display: flex
+}
+ .brand-title{max-width: 100%;}
+ .brands-imgs-left,
+ .brands-imgs-right,
+ .flex
+ {
+    display: flex;
+ }
+
+ .brands-imgs-left img
+.brands-imgs-right img{
+    max-width: 50%;
+}
+.brands-imgs img{width: 50%;}
+
+.brands-imgs-right,
+.brands-imgs-left{
+    width: 50%
+}
+.brands-imgs .width img{
+    width: 100%;
+}
+/* results */
+.results-item{
+    padding: 2px 6px 6px;
+    /* width: 320px; */
+        position: relative;
+        padding: 28px 6px 6px;
+        width: 320px;
+        margin-bottom: 31px;
+        margin: 20px 0;
+        height: 581px;
+    }
+
+.results .hidden{
+    display: none;
+}
+.result-button:focus .hidden{
+    display: block;
+}
+.results .result-button{
+    color: #007185 !important;
+    text-rendering: optimizeLegibility;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+}
+.results img{
+    position: relative;
+    /* height: 200px; */
+    width: 72%;
+    margin: auto;
+
+    
+}
+/* .results span:first-child{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    max-width: 160px !important;
+    border-radius: 3px 0 0 0 !important;
+    background-color: #E67A00 !important;
+    color: #E67A00 !important;
+    max-width: 130px;
+    background-color: #232F3E;
+    color: #232F3E;
+    padding: 0 6px 0 10px;
+} */
+.results h4{
+    color: #0F1111 ;
+    font-size: 16px ;
+    line-height: 24px ;
+    font-weight: 400 ;
+    font-style: normal ;
+}
+.results p{
+    color: #565959 ;
+    font-size: 14px ;
+    line-height: 20px ;
+}
+.results  .price{
+    margin-bottom: 4px;
+}
+.results .price span{
+    font-size: 21px;
+    color: #0F1111;
+}
+.results .get{
+    color: #0F1111 ;
+
+}
+.css-mhc70k-MuiGrid-root > .MuiGrid-item {margin-top: 20px;}
+/* PhoneProducts */
+.phoneProducts{
+    margin-bottom: 20px;
+}
+.phoneProducts .phoneProducts-header{
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin: 20px;
+}
+.phoneProducts .phoneProducts-header h5{
+    color: #0F1111 ;
+    font-size: 14px ;
+    line-height: 20px ;
+    font-weight: 400 ;
+}
+.phoneProducts .phoneProducts-header h5 span{
+    color: #e67a00;
+    font-size: 14px;
+    line-height: 20px ;
+    font-weight: 700 ;
+}
+
+.mobileItems{
+    cursor: pointer;
+    text-align: left;
+}
+.mobile-item{
+        /* border: 1px solid #d5d9d9; */
+        padding: 10px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        margin-bottom: 20px;
+
+}
+.mobileItems a{text-decoration: none;}
+.mobileItems h4{
+    color: #0F1111 ;
+    font-size: 16px ;
+    line-height: 24px ;
+    font-weight: 400 ;
+    font-style: normal ;
+    margin-top: 10px;
+}
+.mobileItems svg{
+    color: #ffa41c;
+    display: inline-block;
+}
+.mobileItems p{
+    font-size: 14px ;
+    line-height: 20px ;
+}
+.mobileItems ul{list-style-type: none;}
+.mobileItems ul li{
+    display: inline-block;
+    color: #0F1111 ;
+    font-size: 14px ;
+    line-height: 20px ;
+    list-style-type: none;
+}
+.mobileItems .para,
+.mobileItems span
+{
+    color: #565959 ;
+    font-size: 14px ;
+    line-height: 20px ;
+}
+
+
+/* .mobileItems .item{
+  border: 1px solid #d5d9d9;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+} */
+.mobile-item .otherpara{
+    color: #0F1111
+}
+.mobile-item del{
+    font-size: 13px;
+    color: #565959;
+    margin-left: 4px;
+}
+.mobile-item .price{
+    margin-left: -29px;
+}
+/* Media */
+@media(max-width: 648px){
+    .css-mhc70k-MuiGrid-root{
+        flex-direction: column!important;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-item img{
+        width: 100%;
+
+    }
+    .mobileItems h4 {
+        font-size: 14px;
+    }
+}
+@media (max-width:500px){
+    .phonesSidebar{display: none;}
+}
+
+@media(max-width:950px){
+        .phonesSidebar h6 {
+            font-size: 10px;
+        }
+        .phonesSidebar li {
+        font-size:10px
+        }
+}

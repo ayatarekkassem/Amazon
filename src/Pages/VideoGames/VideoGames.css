@@ -1,0 +1,121 @@
+.video-game{padding-top: 20px;}
+.shop-items-ways img{
+    width: 105%;
+}
+.shopDevice-title{
+    width: 105%;
+}
+.shop-items-ways .shop-items-img{
+   display: flex;
+ 
+}
+.shop-items-ways .shop-items-img img{
+    width: 35%;
+    cursor: pointer;
+}
+.shop-items-ways .brand .shop-items-img img{
+    width: 25%;
+    cursor: pointer;
+}
+.brand{
+    width: 105%;
+}
+.brand .title{
+    width: 100%;
+}
+.brand .shop-items-img img{
+    width: 105%;
+}
+
+/* results */
+/* .results-item{
+    padding: 2px 6px 32px;
+
+    margin-top: 30px;
+}
+.results .result-header{
+background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+}
+.results .result-header p{
+    color: #0f1111 ;
+  font-size: 14px ;
+  line-height: 20px ;
+  font-weight: 400 ;
+
+}
+.results .result-header p span{
+  color: #c45500 ;
+  font-size: 14px ;
+  line-height: 20px ;
+  font-weight: 700 ;
+}
+.results .hidden{
+    display: none;
+}
+.result-button:focus .hidden{
+    display: block;
+}
+
+.results img{
+    position: relative;
+    width: 72%;
+    margin: auto;
+}
+.results .lock{
+    display: block;
+}
+.results h4{
+    color: #0F1111 ;
+    font-size: 16px ;
+    line-height: 24px ;
+    font-weight: 400 ;
+    font-style: normal ;
+}
+.results p{
+    color: #565959 ;
+    font-size: 14px ;
+    line-height: 20px ;
+}
+.results  .price{
+    margin-bottom: 4px;
+}
+.results .price span{
+    font-size: 21px;
+    color: #0F1111;
+}
+.results del{
+    font-size: 13px;
+  color: #565959;
+}
+.results svg{
+    color:#ffa41c
+}
+.results .result-button{
+    color: #007185;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    background-color: transparent;
+    box-shadow: none;
+    width: 100%;
+    margin-top: 28px;
+    outline: none;
+    border-color: transparent;
+} */
+.addToCart-btn{
+    border-radius: 7px;
+    font-size: 13px;
+    line-height: 29px;
+    background-color: #ffd814;
+    width: 100%;
+    border-color: transparent;
+    margin-top: 20px;
+  }
+@media (max-width:500px){
+    .fashion-sidbar{display: none;}
+}

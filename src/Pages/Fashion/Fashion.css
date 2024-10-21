@@ -1,0 +1,141 @@
+.fashion-items{
+    display: flex;
+    margin-top: 20px;
+}
+
+.fashion-item{
+    width: 80%;
+}
+.fashion .phonesSidebar{
+    width: 100%;
+}
+.fashion-sidbar{
+    width: 20%;
+}
+.enjoy{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    background-image: url(https://m.media-amazon.com/images/G/42/em/pd2023/XCM_CUTTLE_1559944_3028589_120x120_2X_en_EG.gif);
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.enjoy h4{
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 4px;
+}
+.enjoy h6{
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+.enjoy button{
+    padding-left: 12px;
+    padding-right: 12px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+    background-color: #FFD814!important;
+    border-color: #FCD200;
+    background: #FFF;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+}
+.fashion-item .fashion-image img{
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.essintials img{
+    max-width: 100%;
+}
+
+.fashion-brands,
+.Shop-brand
+{
+    padding: 5px;
+}
+.fashion-brands img,
+.Shop-brand img
+{
+    max-width: 100%;
+    cursor: pointer;
+}
+.Shop-brand h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+
+/* results */
+/* .results-item{ */
+    /* padding: 2px 6px 32px; */
+    /* width: 320px; */
+    /* margin-top: 30px; */
+/* } */
+.results .hidden{
+    display: none;
+}
+.result-button:focus .hidden{
+    display: block;
+}
+.results .result-button{
+    color: #007185 !important;
+    text-rendering: optimizeLegibility;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+}
+.results img{
+    position: relative;
+    /* height: 200px; */
+    width: 72%;
+    margin: auto;
+
+}
+.results .lock{
+    display: block;
+}
+.results h4{
+    color: #0F1111 ;
+    font-size: 16px ;
+    line-height: 24px ;
+    font-weight: 400 ;
+    font-style: normal ;
+}
+.results p{
+    color: #565959 ;
+    font-size: 14px ;
+    line-height: 20px ;
+}
+.results  .price{
+    margin-bottom: 4px;
+}
+.results .price span{
+    font-size: 21px;
+    color: #0F1111;
+}
+@media (max-width:500px){
+    .fashion-sidbar{display: none;}
+}

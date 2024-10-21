@@ -1,0 +1,235 @@
+.electronicBest{
+    background: #fff;
+    margin: 16px 0;
+    padding: 0 18px;
+    text-align: center;
+}
+.electronicBest h4{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: left;
+}
+/* .electronic-item{
+    position: relative;
+} */
+.electronicBest img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+/* .electronicBest .electronic-time{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+} */
+.electronicBest span:first-of-type{
+    color: rgb(255, 255, 255);
+    background: rgb(204, 12, 57);
+    border-radius: 2px;
+    padding: 4px 6px;
+    margin-right: 6px;
+}
+.electronicBest span:last-of-type{
+    color: rgb(204, 12, 57);
+    background: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 12px;
+}
+.electronicBest h6{
+    font-size: 1em;
+    max-height: 2.8em;
+    line-height: 1.4;
+
+}
+.electronic-grid{
+    padding: 20px;
+}
+.electronic-grid img{
+    background: url(https://images-na.ssl-images-amazon.com/images/G/01/blank/1x1_b._V192262818_.gif);
+    max-width: 100%;
+    /* height: 112px; */
+    max-height: 100%;
+}
+.electronic-img{
+    max-width: 100%;
+}
+/* .result-img-content{height:200px} */
+
+/* ElectronicsNewArrivals */
+.ElectronicsNewArrivals{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    padding: 20px 0 15px 0;
+    text-align: center;
+}
+.ElectronicsNewArrivals h4{
+    margin-bottom: 4px !important;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.ElectronicsNewArrivals img{
+    max-height: 196px;
+}
+.ElectronicsNewArrivals h4{
+    margin-bottom: 4px;
+}
+.ElectronicsNewArrivals h6{
+    color: #555;
+}
+.ElectronicsNewArrivals .price{
+    margin-bottom: 4px;
+}
+.ElectronicsNewArrivals .price span{
+    font-size: 21px;
+    color: #0F1111;
+}
+.ElectronicsNewArrivals .star svg{
+    color: #ffa41c;
+}
+.ElectronicsNewArrivals .star .star-num{
+    color: #555;
+}
+
+.shop h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    padding: 20px 0 15px 0;
+}
+.shop img{
+    max-width: 100%;
+}
+.shop h6{
+    margin: 5px 0;
+}
+.shop p{
+    color: #555;
+}
+.shop span{
+    font-size: 21px;
+    color: #0F1111;
+}
+.shop .star span{
+    color: #565959;
+}
+.shop .star svg{
+    color: #ffa41c;
+}
+.shop .star .star-num{
+    color: #555;
+}
+
+/* shop brands */
+.shop-brands{
+    padding: 63px 0;
+}
+.shop-brands h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align:center
+}
+.shop-brands img{
+    /* background: url(https://images-na.ssl-images-amazon.com/images/G/01/blank/1x1_b._V192262818_.gif); */
+    max-width: 100%!important;
+}
+
+/* result */
+/* 
+
+.results-item-para{
+    background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+    color: #0f1111;
+  font-size: 14px ;
+  line-height: 20px ;
+}
+.results-item-para span{
+    color: #c45500 ;
+  font-size: 14px ;
+  line-height: 20px ;
+  font-weight: 700 ;
+}
+.results-item{
+    position: relative;
+    padding: 2px 6px 6px;
+    height: 428px;
+  /* margin-bottom: 31px; */
+
+.results-item img{
+    position: relative;
+
+    width: 72%;
+    margin: auto;
+
+}
+.results-item h4{
+    color: #0f1111;
+  font-size: 12px ;
+  line-height: 16px;
+  margin-top: 25px;
+
+}
+.results-item .star-num{
+    font-size: 14px ;
+  line-height: 20px ;
+}
+.results-item p{
+    color: #565959 ;
+  font-size: 14px ;
+  line-height: 20px ;
+
+}
+.results-item .price{
+    font-size: 24px;
+  color: #0f1111;
+  font-weight: 400;
+}
+.results-item .price del{
+    font-size: 13px;
+    color: #565959;
+    margin-left: 4px;
+} 
+.css-1633um2-MuiPaper-root{
+    box-shadow: none!important;
+}
+.results-items Link,
+.modal-content-info-link
+{
+    text-decoration: none!important;
+} 
+@media(max-width:880px){
+    .results-item {
+        height: 583px!important;
+    }
+}
+@media(max-width:499px){
+.shop-brands{text-align: center}
+}
+
+.InnerPage-info .addToCart{
+    background-color: #ffd814;
+    border-color: #fcd200;
+    border-radius: 100px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(213, 217, 217, .5);
+  
+  }
+  @media(max-width:970px){
+    .results-item img {
+        width: 58%;
+    }
+  }
+  @media(max-width:500px){
+    css-mhc70k-MuiGrid-root>.MuiGrid-item {
+         padding-top: 16px; 
+    }
+    }

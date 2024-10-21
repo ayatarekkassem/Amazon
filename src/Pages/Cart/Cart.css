@@ -1,0 +1,110 @@
+.cart{
+    background-color: #EAEDED !important;
+    padding: 14px 18px 18px;
+
+}
+.cart-items{
+    width: 70%;
+    margin-right: 27px;
+    padding: 27px;
+    margin-bottom: 50px;
+}
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e4dcdc;
+    margin-bottom: 23px;
+    padding: 22px 0;
+}
+.cart-title{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.cart .cart-item-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px
+}
+.cart .cart-title h3{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    width: 100%;
+}
+.cart .cart-wrapper{
+    display: flex;
+    margin: 10px 0 30px;
+
+}
+.cart .cart-items,
+.cart-order-summary
+{
+    background-color: #fff;
+    border-radius: 12px;
+}
+.cart .cart-items img{
+    max-width: 100%;
+    max-height: 200px;
+} 
+.cart .cart-items .cart-item-book-title{
+    color: #0f1111;
+    font-size: 18px;
+    line-height: 1.3em ;
+}
+.cart .cart-item-quantity{
+    display: flex;
+    margin: 10px 0;
+} 
+.cart .cart-item-quantity b{
+    padding: 0 10px;
+}
+.cart .cart-item-price{
+    color: #0f1111 ;
+    font-size: 18px ;
+    line-height: 24px ;
+    font-weight: 700 ;
+}
+.cart .del{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 12px ;
+    line-height: 16px ;
+    color: #007185 !important;
+}
+.cart .cart-order-summary{
+    width: 30%;
+    padding: 27px;
+}
+.cart .cart-order-summary p{
+    text-align: left;
+    font-size: 12px;
+    line-height: 15px;
+    color: #067d62;
+
+}
+.cart .buy{
+    border-radius: 7px;
+    font-size: 13px;
+    line-height: 29px;
+    background-color: #ffd814;
+    width: 100%;
+    border-color: transparent;
+    margin-top: 20px;
+}
+@media(max-width:700px){
+    .cart .cart-wrapper {
+        flex-direction: column;
+    }
+    .cart-items, .cart .cart-order-summary{width: 100%;}
+    .cart-items {
+        margin-bottom: 22px;
+    }
+}
+@media(max-width:500px){
+    .cart-item {flex-direction: column;}
+    .cart .cart-items img {width: 85%;margin: auto;}
+}
